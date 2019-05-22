@@ -31,6 +31,9 @@ cur.execute(sql)
 #　获取全部查询结果
 all_row = cur.fetchall()
 print(all_row)
+for i in range(12):
+    print(i)
+
 
 cur.close()
 db.close()
